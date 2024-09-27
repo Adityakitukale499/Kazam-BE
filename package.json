@@ -5,8 +5,7 @@
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/server.ts",
     "dev": "nodemon --watch src -e ts --exec ts-node src/server.ts",
-    "build": "tsc",
-    "serve": "tsc && node dist/server.js"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
